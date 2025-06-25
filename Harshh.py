@@ -13,7 +13,6 @@ bot = telebot.TeleBot(BOT_TOKEN)
 # /start
 @bot.message_handler(commands=['start'])
 def start_cmd(msg):
-    bot.reply_to(msg, "🔥 *Welcome to the @DARKMODOFFICAL Bot!*\n💻
 
 # ✅ Color Codes
 colors = [
